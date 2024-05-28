@@ -2,3 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+.custom-filter {
+  @apply filter;
+  filter: brightness(0) saturate(100%) invert(15%) sepia(5%) saturate(24%) hue-rotate(322deg) brightness(101%) contrast(87%);
+}
+.custom-img-filter{
+  filter: hue-rotate(495deg) saturate(2);
+}
+.custom-bg {
+  @apply bg-cover;
+  background: conic-gradient(rgb(34, 36, 40) 19%, rgb(255, 255, 255) 19%);
+}
+
+.custom-a-bg {
+  background-image: linear-gradient(180deg, transparent 93%, #fc5454 0%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: background-size .4s ease;
+}
+
+.custom-a-bg:hover {
+  background-size: 100% 100%;
+}

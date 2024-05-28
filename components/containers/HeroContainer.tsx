@@ -8,7 +8,7 @@ import GoodFirmsRating from '../../public/goodfirm-rating.svg'
 
 export const HeroContainer = () => {
   return (
-    <div className="flex pt-10 justify-center items-center">
+    <div className="flex py-10 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-full max-w-full justify-center items-center mx-auto px-4">
       <div className="w-[42%] pr-3">
         <h1 className="font-bold mb-3 text-[35px]">
           Top Software <br /> Development Company
@@ -49,7 +49,7 @@ export const HeroContainer = () => {
           </a>
         </div>
       </div>
-      <div className='pl-3'>
+      <div className="pl-3">
         <Image src={HeroImage} alt="hero" />
       </div>
     </div>

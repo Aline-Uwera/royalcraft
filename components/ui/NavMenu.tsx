@@ -129,21 +129,6 @@ const NavMenu = () => {
                 )}
               </ul>
             </div>
-
-            {/* {offers.map((offer: any, index: any) => (
-              <div
-                key={index}
-                onMouseEnter={() => handleOfferHover(index)}
-                onMouseLeave={() => setHoveredOfferIndex(0)}
-              >
-                <Offer
-                  key={index}
-                  title={offer.title}
-                  services={offer.services}
-                  isHovered={index === hoveredOfferIndex}
-                />
-              </div>
-            ))} */}
           </NavigationMenu.Content>
         </NavigationMenu.Item>
 
