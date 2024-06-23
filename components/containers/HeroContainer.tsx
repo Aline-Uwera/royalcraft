@@ -8,9 +8,9 @@ import GoodFirmsRating from '../../public/goodfirm-rating.svg'
 
 export const HeroContainer = () => {
   return (
-    <div className="flex py-10 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-full max-w-full justify-center items-center mx-auto px-4">
+    <div className="flex mt-[70px] py-10 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-full max-w-full justify-center items-center mx-auto px-4">
       <div className="w-[42%] pr-3">
-        <h1 className="font-bold mb-3 text-[35px]">
+        <h1 className="font-semibold mb-4 text-[40px] leading-[50px]">
           Top Software <br /> Development Company
         </h1>
         <p className="mb-3 text-[18px] w-[95%] leading-6">

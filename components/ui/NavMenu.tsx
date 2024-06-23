@@ -234,26 +234,26 @@ How to Create a Web Application in 6 Steps"
   )
 }
 
-export const ListItem = React.forwardRef(
-  ({ className, children, title, ...props }: any, forwardedRef) => (
-    <li>
-      <NavigationMenu.Link asChild>
-        <a
-          className={classNames(
-            'hover:text-[#E2C08C] block select-none rounded-[6px] p-3  leading-none no-underline outline-none transition-colors',
-            className
-          )}
-          {...props}
-          ref={forwardedRef}
-        >
-          <div className="text-violet12 mb-[5px] font-medium leading-[1.2]">
-            {title}
-          </div>
-          <p className="text-mauve11 leading-[1.4]">{children}</p>
-        </a>
-      </NavigationMenu.Link>
-    </li>
-  )
+export const ListItem = React.forwardRef(function ListItem
+  ({ className, children, title, ...props }: any, forwardedRef) {
+  return <li>
+    <NavigationMenu.Link asChild>
+      <a
+        className={classNames(
+          'hover:text-[#E2C08C] block select-none rounded-[6px] p-3  leading-none no-underline outline-none transition-colors',
+          className
+        )}
+        {...props}
+        ref={forwardedRef}
+      >
+        <div className="text-violet12 mb-[5px] font-medium leading-[1.2]">
+          {title}
+        </div>
+        <p className="text-mauve11 leading-[1.4]">{children}</p>
+      </a>
+    </NavigationMenu.Link>
+  </li>
+}
 )
 
 export default NavMenu
