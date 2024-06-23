@@ -1,7 +1,6 @@
 import React from 'react'
 import { ServiceCard } from '../ui/ServiceCard'
 import serviceIcon from '../../public/Web-Development.svg'
-import { title } from 'process'
 
 export type service = {
   icon: any
