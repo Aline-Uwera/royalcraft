@@ -5,6 +5,7 @@ import { HeroContainer } from "@/components/containers/HeroContainer";
 import { NavContainer } from "@/components/containers/NavContainer";
 import PortfolioContainer from "@/components/containers/PortfolioContainer";
 import { ServicesContainer } from "@/components/containers/ServicesContainer";
+import SoftwareSolutions from "@/components/containers/SoftwareSolution";
 import TalkToExperts from "@/components/containers/TalkToExpertsContainer";
 import { TestimonyContainer } from "@/components/containers/TestimonyContainer";
 import BackToTopButton from "@/components/ui/BackToTopButton";
@@ -43,7 +44,8 @@ export default function Home() {
         <TestimonyContainer />
         <TalkToExperts />
         <PortfolioContainer />
-        <FeaturedIn/>
+        <FeaturedIn />
+        <SoftwareSolutions/>
         <BackToTopButton/>
       </div>
     </main>
