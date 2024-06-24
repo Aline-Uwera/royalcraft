@@ -73,7 +73,7 @@ const NavMenu = () => {
               <div>
                 <h2 className="p-2">About Us</h2>
                 <hr className="" />
-                <ListItem title="About Royal Craft" href="/"></ListItem>
+                <ListItem title="About Afripod" href="/"></ListItem>
                 <ListItem title="Leadership Team" href="/"></ListItem>
                 <ListItem title="Awards and Certifications" href="/"></ListItem>
                 <ListItem title="Client Testimonials" href="/"></ListItem>
@@ -83,7 +83,7 @@ const NavMenu = () => {
                 <h2 className="p-2">Our Work System</h2>
                 <hr />
                 <ListItem title="Careers" href="/"></ListItem>
-                <ListItem title="Life at Royal Craft" href="/"></ListItem>
+                <ListItem title="Life at Afripod" href="/"></ListItem>
                 <ListItem title="Employee Speaks" href="/"></ListItem>
                 <ListItem title="Modern Infrastructure" href="/"></ListItem>
               </div>
@@ -234,26 +234,29 @@ How to Create a Web Application in 6 Steps"
   )
 }
 
-export const ListItem = React.forwardRef(function ListItem
-  ({ className, children, title, ...props }: any, forwardedRef) {
-  return <li>
-    <NavigationMenu.Link asChild>
-      <a
-        className={classNames(
-          'hover:text-[#E2C08C] block select-none rounded-[6px] p-3  leading-none no-underline outline-none transition-colors',
-          className
-        )}
-        {...props}
-        ref={forwardedRef}
-      >
-        <div className="text-violet12 mb-[5px] font-medium leading-[1.2]">
-          {title}
-        </div>
-        <p className="text-mauve11 leading-[1.4]">{children}</p>
-      </a>
-    </NavigationMenu.Link>
-  </li>
-}
-)
+export const ListItem = React.forwardRef(function ListItem(
+  { className, children, title, ...props }: any,
+  forwardedRef
+) {
+  return (
+    <li>
+      <NavigationMenu.Link asChild>
+        <a
+          className={classNames(
+            'hover:text-[#E2C08C] block select-none rounded-[6px] p-3  leading-none no-underline outline-none transition-colors',
+            className
+          )}
+          {...props}
+          ref={forwardedRef}
+        >
+          <div className="text-violet12 mb-[5px] font-medium leading-[1.2]">
+            {title}
+          </div>
+          <p className="text-mauve11 leading-[1.4]">{children}</p>
+        </a>
+      </NavigationMenu.Link>
+    </li>
+  )
+})
 
 export default NavMenu

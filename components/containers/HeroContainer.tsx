@@ -14,7 +14,7 @@ export const HeroContainer = () => {
           Top Software <br /> Development Company
         </h1>
         <p className="mb-3 text-[18px] w-[95%] leading-6">
-          Royal Craft Technologies is a leading software development company for
+          Afripod Technologies is a leading software development company for
           more than a decade having 1200+ satisfied clients. We develop custom
           software solutions for funded startups, established brands, and
           mid-sized businesses. Having developed 300+ software solutions, we
