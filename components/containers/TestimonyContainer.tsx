@@ -10,13 +10,13 @@ export const TestimonyContainer = () => {
       <div>
         <h2 className="text-[40px] text-center font-bold leading-[50px] mb-[32px] flex justify-center items-center flex-col">
           <span className="text-[20px] font-light">CLIENTS LOVE</span>
-          Royal Craft Technologies
+          Afripod Technologies
         </h2>
       </div>
       <div className="flex justify-between items-center flex-wrap -m-[15px]">
         <div className="flex-none w-[58.333333%] max-w-[58.333333%] relative min-h-[1px] px-4">
           <p className="text-[20px] leading-8 text-[#1b1c1e] relative z-[1] pt-[30px] mb-0">
-            Royal Craft developed a custom project management system for our
+            Afripod developed a custom project management system for our
             engineering team. The system they built allows our 28 engineers to
             track progress across all 75 concurrent projects. Key features like
             Gantt chart scheduling and automatic notifications have increased

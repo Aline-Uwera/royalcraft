@@ -1,12 +1,14 @@
 'use client'
 import { ClientContainer } from "@/components/containers/ClientContainer";
 import { ConsultationContainer } from "@/components/containers/ConsultationContainer";
+import Footer from "@/components/containers/Footer";
 import { HeroContainer } from "@/components/containers/HeroContainer";
 import { NavContainer } from "@/components/containers/NavContainer";
 import PortfolioContainer from "@/components/containers/PortfolioContainer";
 import { ServicesContainer } from "@/components/containers/ServicesContainer";
 import SoftwareSolutions from "@/components/containers/SoftwareSolution";
 import TalkToExperts from "@/components/containers/TalkToExpertsContainer";
+import TechnologyStack from "@/components/containers/TechnologyStack";
 import { TestimonyContainer } from "@/components/containers/TestimonyContainer";
 import BackToTopButton from "@/components/ui/BackToTopButton";
 import FeaturedIn from "@/components/ui/FeaturedIn";
@@ -45,9 +47,12 @@ export default function Home() {
         <TalkToExperts />
         <PortfolioContainer />
         <FeaturedIn />
-        <SoftwareSolutions/>
+        <SoftwareSolutions />
+        <TechnologyStack />
+        <Footer/>
         <BackToTopButton/>
       </div>
+
     </main>
   )
 }
